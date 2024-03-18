@@ -6,6 +6,10 @@ maintenance mode:
 
 ``pcs property set maintenance-mode=true``
 
+list contraints:
+
+``pcs constraint list --full``
+
 
 rhel8 guide on constraints:
 
