@@ -20,6 +20,10 @@ forget failed stonith operations on nodename:
 
 ``pcs stonith history cleanup nodename``
 
+forget failed operations and contrain, to avoid impacting resource group (check man page on this one):
+
+``pcs resource cleanup service-my-daemon --strict``
+
 
 rhel7 guide on resource creation:
 
