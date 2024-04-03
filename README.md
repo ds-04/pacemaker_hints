@@ -20,7 +20,7 @@ forget failed stonith operations on nodename:
 
 ``pcs stonith history cleanup nodename``
 
-forget failed operations and constrain, to avoid impacting resource group (check man page on this one):
+forget failed operations and limit using strict, to avoid impacting resource group (check man page on this one):
 
 ``pcs resource cleanup service-my-daemon --strict``
 
