@@ -16,6 +16,11 @@ disable stonith:
 ``pcs property set stonith-enabled=false``
 
 
+forget failed stonith operations on nodename:
+
+``pcs stonith history cleanup nodename``
+
+
 rhel7 guide on resource creation:
 
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/high_availability_add-on_administration/s1-resourcegroupcreatenfs-haaa
